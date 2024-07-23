@@ -1,0 +1,8 @@
+print('==============================')
+print('|       Só Lindezas          |')
+print('==============================')
+preco = float(input('Qual o valor da compra? '))
+desconto = preco - (preco*5/100)
+print('O desconto da compra de R${:.2f} com \no desconto fica por R${:.2f}'.format(preco, desconto))
+print('Obrigado por comprar na Só Lindezas')
+print('==============================')
